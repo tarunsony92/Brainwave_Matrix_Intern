@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+      
+      <div class="cont">
+        <h1>TO DO LIST</h1>
+      
+        <br><br>
+        <div class="fields">
+          
+          <input type="text" class="task" name="task" placeholder="Enter TODO Task here" required>
+          <input type="date" name="time" class="time" required>
+          <button type="submit" class="add" onclick="addtodo()">ADD</button>
+          <br>  
+        </div>
+        <div class="todoitems fields"></div>
+      </div>
+    
+      <script src="todo.js"></script>
+</body>
+</html>
